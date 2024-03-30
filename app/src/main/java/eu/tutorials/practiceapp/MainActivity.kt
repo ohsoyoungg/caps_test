@@ -4,14 +4,11 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.Button
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.colorspace.WhitePoint
 import androidx.compose.ui.tooling.preview.Preview
+import eu.tutorials.practiceapp.friends.FriendsScreen
 import eu.tutorials.practiceapp.ui.theme.Background
 import eu.tutorials.practiceapp.ui.theme.PracticeAppTheme
 
@@ -25,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = Background
                 ) {
-                    HomeScreen()
+                    FriendsScreen()
                 }
             }
         }
