@@ -29,7 +29,7 @@ import eu.tutorials.practiceapp.R
 import eu.tutorials.practiceapp.ui.theme.TextBlack
 
 @Composable
-fun FriendsScreen() {
+fun FriendsGroupListScreen() {
     var isCreateGroupDialogOpen = remember{ mutableStateOf(false) }
     Box(
         modifier = Modifier

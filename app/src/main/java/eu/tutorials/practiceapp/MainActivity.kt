@@ -8,7 +8,8 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import eu.tutorials.practiceapp.friends.FriendsScreen
+import eu.tutorials.practiceapp.friends.FriendsGroupListScreen
+import eu.tutorials.practiceapp.friends.GroupDetailScreen
 import eu.tutorials.practiceapp.ui.theme.Background
 import eu.tutorials.practiceapp.ui.theme.PracticeAppTheme
 
@@ -22,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = Background
                 ) {
-                    FriendsScreen()
+                    GroupDetailScreen()
                 }
             }
         }
